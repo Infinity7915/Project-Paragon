@@ -1,1 +1,1 @@
-# V1 project
+# Paragon Project
