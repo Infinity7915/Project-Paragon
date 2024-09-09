@@ -6,7 +6,6 @@ local _Resources = { -- This table is to load in 'UNIVERSAL' needs
             VirtualUser:CaptureController()
             VirtualUser:ClickButton2(Vector2.new())
         end)
-            print("anti-afk enabled")
        end,
       ['Call'] = function() 
         
