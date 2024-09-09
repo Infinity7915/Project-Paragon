@@ -1,4 +1,4 @@
-local _Resources = { -- This table is to load in 'UNIVERSAL' needs for the script
+local _Resources = { -- This table is to load in 'UNIVERSAL' needs
     general_resources = {
       ['antiAFK'] = function() 
         local VirtualUser = game:GetService("VirtualUser") -- anti-AFK
