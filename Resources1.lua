@@ -15,7 +15,7 @@ local _Resources = { -- This table is to load in 'UNIVERSAL' needs for the scrip
        end,
     }
   }
-  
+  ---- # Call Table
   for name, func in pairs(_Resources.general_resources) do
     func()
   end
