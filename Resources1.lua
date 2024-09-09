@@ -8,8 +8,8 @@ local _Resources = { -- This table is to load in 'UNIVERSAL' needs
         end)
             print("anti-afk enabled")
        end,
-      ['CallLib'] = function() 
-        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity7915/Project-Paragon/main/Libraries.lua"))()
+      ['Call'] = function() 
+        
        end,
       ['Credits_'] = function() 
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Infinity7915/Project-Paragon/main/Credits.lua'),true))()
