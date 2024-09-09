@@ -7,8 +7,8 @@ local _Resources = { -- This table is to load in 'UNIVERSAL' needs
             VirtualUser:ClickButton2(Vector2.new())
         end)
        end,
-      ['Call_Lib'] = function() -- leaving room for another function if i want
-         local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity7915/Project-Paragon/main/Library_Main.lua"))()
+      ['Call'] = function() -- leaving room for another function if i want
+            
         end,
       ['Credits_'] = function() 
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/Infinity7915/Project-Paragon/main/Credits.lua'),true))()
