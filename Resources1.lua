@@ -1,5 +1,3 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity7915/Project-Paragon/main/Libraries.lua"))()
-
 local _Resources = { -- This table is to load in 'UNIVERSAL' needs
     general_resources = {
       ['antiAFK'] = function() 
