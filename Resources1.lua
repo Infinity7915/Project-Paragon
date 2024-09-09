@@ -6,6 +6,7 @@ local _Resources = { -- This table is to load in 'UNIVERSAL' needs
             VirtualUser:CaptureController()
             VirtualUser:ClickButton2(Vector2.new())
         end)
+            print("anti-afk enabled")
        end,
       ['CallLib'] = function() 
         local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity7915/Project-Paragon/main/Libraries.lua"))()
