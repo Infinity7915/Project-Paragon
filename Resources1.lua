@@ -7,7 +7,7 @@ local _Resources = { -- This table is to load in 'UNIVERSAL' needs
             VirtualUser:ClickButton2(Vector2.new())
         end)
        end,
-      ['Call'] = function() 
+      ['Call'] = function() -- leaving room for another function if i want
         
        end,
       ['Credits_'] = function() 
