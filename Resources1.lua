@@ -170,6 +170,17 @@ local _Resources = {
             end
             UpdatePingLabel()
         end,
+        ["Delete_ads"] = function()
+            if
+                game.PlaceId == 3276265788 or game.PlaceId == 3101667897 or game.PlaceId == 3232996272 or
+                    game.PlaceId == 3623096087
+             then
+                local Players = game:GetService("Players")
+                local localPlayer = Players.LocalPlayer
+                local adsAllowed = localPlayer:WaitForChild("adsAllowed")
+                adsAllowed.Value = false
+            end
+        end,
         ["Credits_"] = function()
             loadstring(
                 game:HttpGet(("https://raw.githubusercontent.com/Infinity7915/Project-Paragon/main/Credits.lua"), true)
