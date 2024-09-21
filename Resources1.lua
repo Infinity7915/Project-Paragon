@@ -179,6 +179,8 @@ local _Resources = {
                 local localPlayer = Players.LocalPlayer
                 local adsAllowed = localPlayer:WaitForChild("adsAllowed")
                 adsAllowed.Value = false
+            else
+                warn("local ads not found")
             end
         end,
         ["Credits_"] = function()
