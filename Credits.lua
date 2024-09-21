@@ -1,5 +1,6 @@
 -- # Project Paragon
 -- Refrences:
+local player = game.Players.LocalPlayer
 local player_display_name = player.DisplayName
 -- Storage:
 local _Credits_0 = function()
