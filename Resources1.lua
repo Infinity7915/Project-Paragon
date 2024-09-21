@@ -177,10 +177,13 @@ local _Resources = {
              then
                 local Players = game:GetService("Players")
                 local localPlayer = Players.LocalPlayer
-                local adsAllowed = localPlayer:WaitForChild("adsAllowed")
-                adsAllowed.Value = false
-            else
-                warn("local ads not found")
+                local adsAllowed = localPlayer:FindFirstChild("adsAllowed")
+
+                if adsAllowed then
+                    adsAllowed.Value = false
+                else
+                    warn("Local ads not found")
+                end
             end
         end,
         ["Credits_"] = function()
